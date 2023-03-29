@@ -17,7 +17,7 @@ app.use(express.json());
 app.get("/", (req, res) => {
   res.status(200).json({
     mensaje: "Bienvenido a la API",
-    autor: "Kevin Luciano",
+    autor: "Julio Velazquez",
     version: "1.0.0",
   });
 });
